@@ -96,6 +96,7 @@ didChangeAudioCategory:(NSString *)category
 
 /**
  *  Initializes and returns an audio media item having the given audioData.
+ *  初始化并返回具有给定 audioData 数据的音频媒体实例对象。
  *
  *  @param audioData The data object that contains the audio resource.
  *

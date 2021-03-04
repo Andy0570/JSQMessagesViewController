@@ -149,6 +149,9 @@ NS_ASSUME_NONNULL_BEGIN
  *  Specifies an additional inset amount to be added to the collectionView's `contentInset` and `scrollIndicatorInsets` value.
  *  Currently, the `.left` and `.right` insets are ignored.
  *
+ *  指定额外的边缘插入量，添加到 collectionView 的 contentInset 和 scrollIndicatorInsets。
+ *  目前，'.left' 和 '.right' 的 inset 值被忽略。
+ *
  *  @discussion Use this property to adjust the insets to account for a custom subview in your view controller.
  */
 @property (assign, nonatomic) UIEdgeInsets additionalContentInset;

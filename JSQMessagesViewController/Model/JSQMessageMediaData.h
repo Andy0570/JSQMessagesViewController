@@ -32,6 +32,11 @@ NS_ASSUME_NONNULL_BEGIN
  *  but they will likely require some modifications or extensions to conform to your particular data models.
  *  These concrete media items are: `JSQPhotoMediaItem`, `JSQLocationMediaItem`, `JSQVideoMediaItem`.
  *
+ *  JSQMessageMediaData 协议定义了 JSQMessagesViewController 和 JSQMessagesCollectionView 与媒体消息模型对象交互的通用接口。
+ *  它声明了一个类必须实现的方法和可选的实现方法，以便该类的实例能够在 JSQMessagesCollectionViewCell 中正确显示。
+ *  这个库提供了一些遵守该协议的具体类。你可以按原样使用它们，但它们可能需要一些修改或扩展以符合你的特定数据模型。
+ *  这些具体的媒体项是：`JSQPhotoMediaItem`、`JSQLocationMediaItem`、`JSQVideoMediaItem`。
+ *
  *  @see JSQPhotoMediaItem.
  *  @see JSQLocationMediaItem.
  *  @see JSQVideoMediaItem.

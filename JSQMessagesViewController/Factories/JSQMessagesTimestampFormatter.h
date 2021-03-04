@@ -78,6 +78,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  *  Returns a string representation of *only* the minute and hour components of the given date formatted in the current locale styled using `NSDateFormatterShortStyle`.
+ *  显示小时和分钟
  *
  *  @param date The date to format.
  *
@@ -87,6 +88,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  *  Returns a string representation of *only* the day, month, and year components of the given date formatted in the current locale styled using `NSDateFormatterMediumStyle`.
+ *  显示年月日
  *
  *  @param date The date to format.
  *

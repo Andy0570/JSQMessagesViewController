@@ -70,9 +70,7 @@
 
 - (NSString *)timestampForDate:(NSDate *)date
 {
-    if (!date) {
-        return nil;
-    }
+    if (!date) { return nil; }
     
     [self.dateFormatter setDateStyle:NSDateFormatterMediumStyle];
     [self.dateFormatter setTimeStyle:NSDateFormatterShortStyle];
@@ -81,9 +79,7 @@
 
 - (NSAttributedString *)attributedTimestampForDate:(NSDate *)date
 {
-    if (!date) {
-        return nil;
-    }
+    if (!date) { return nil; }
     
     NSString *relativeDate = [self relativeDateForDate:date];
     NSString *time = [self timeForDate:date];
@@ -101,9 +97,7 @@
 
 - (NSString *)timeForDate:(NSDate *)date
 {
-    if (!date) {
-        return nil;
-    }
+    if (!date) { return nil; }
     
     [self.dateFormatter setDateStyle:NSDateFormatterNoStyle];
     [self.dateFormatter setTimeStyle:NSDateFormatterShortStyle];
@@ -112,9 +106,7 @@
 
 - (NSString *)relativeDateForDate:(NSDate *)date
 {
-    if (!date) {
-        return nil;
-    }
+    if (!date) { return nil; }
     
     [self.dateFormatter setDateStyle:NSDateFormatterMediumStyle];
     [self.dateFormatter setTimeStyle:NSDateFormatterNoStyle];

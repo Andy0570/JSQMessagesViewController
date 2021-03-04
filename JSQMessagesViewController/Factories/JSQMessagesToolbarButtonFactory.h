@@ -49,6 +49,8 @@ NS_ASSUME_NONNULL_BEGIN
  *  Creates and returns a new button that is styled as the default accessory button. 
  *  The button has a paper clip icon image and no text.
  *
+ *  创建一个默认附件按钮。这个按钮有一个回形针图标，没有文字。
+ *
  *  @return A newly created button.
  */
 - (UIButton *)defaultAccessoryButtonItem;
@@ -56,6 +58,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  Creates and returns a new button that is styled as the default send button. 
  *  The button has title text `@"Send"` and no image.
+ *
+ *  创建一个默认发送按钮。这个按钮有一个标题 “发送”，没有图标。
  *
  *  @return A newly created button.
  */

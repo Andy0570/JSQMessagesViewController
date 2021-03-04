@@ -31,6 +31,10 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  The class that conforms to this protocol is provided in the library. See `JSQMessage`.
  *
+ *  JSQMessageData 协议定义了 JSQMessagesViewController 和 JSQMessagesCollectionView 与消息模型对象交互的通用接口。
+ *  它声明了一个类必须实现的方法和可选的实现方法，以便该类的实例能够在 JSQMessagesCollectionViewCell 中正确显示。
+ *  遵守该协议的类在本框架中已经提供。参考 JSQMessage
+ *
  *  @see JSQMessage.
  */
 @protocol JSQMessageData <NSObject>

@@ -95,6 +95,8 @@
      *
      *  self.inputToolbar.maximumHeight = 150;
      */
+    
+
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -102,9 +104,7 @@
     [super viewWillAppear:animated];
     
     if (self.delegateModal) {
-        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemStop
-                                                                                              target:self
-                                                                                              action:@selector(closePressed:)];
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemStop target:self action:@selector(closePressed:)];
     }
 }
 
